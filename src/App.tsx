@@ -105,6 +105,7 @@ function App() {
       title: 'Weather Forecasting Web-App',
       description: 'Developed a responsive web application that fetches real-time weather data using the OpenWeather API. Displays temperature, humidity, wind speed, and weather conditions based on user location or search. Implemented interactive UI with dynamic background changes based on the weather.',
       tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeather API'],
+      link: 'https://weatherliveapp4.netlify.app/',
       category: 'Frontend'
     },
     {
@@ -323,8 +324,8 @@ function App() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
               <span className="text-gray-300 mb-2 sm:mb-0">2022 – 2026</span>
               <div className="flex items-center space-x-2">
-                {/* <span className="text-2xl font-bold text-green-600">8.7</span>
-                <span className="text-gray-300">/10 CGPA</span> */}
+                <span className="text-2xl font-bold text-green-600">8.7</span>
+                <span className="text-gray-300">/10 CGPA</span>
               </div>
             </div>
           </div>
@@ -342,6 +343,8 @@ function App() {
             <p className="text-lg text-blue-600 mb-2">NMKRV PU College</p>
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
               <span className="text-gray-300">Completed in 2022</span>
+              {/* <span className="text-2xl font-bold text-green-600">8.7</span> */}
+                <span className="text-gray-300">64%</span>
             </div>
           </div>
         </div>
@@ -358,6 +361,8 @@ function App() {
             <p className="text-lg text-blue-600 mb-2">Vijaya Education Institute Trust</p>
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
               <span className="text-gray-300">Completed in 2020</span>
+              {/* <span className="text-2xl font-bold text-green-600">8.7</span> */}
+                <span className="text-gray-300">68%</span>
             </div>
           </div>
         </div>
