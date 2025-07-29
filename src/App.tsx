@@ -273,8 +273,8 @@ function App() {
       </div>
     <div className="flex flex-col items-center mt-6">
   <a
-    href="/roshan_resume.pdf"
-    download="Roshan_S_Resume.pdf"
+    href="/Roshan_Resume.pdf"
+    download="Roshan_Resume.pdf"
     className="px-6 py-3 flex items-center justify-center rounded-full border-2 border-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white relative shadow-xl hover:scale-105 transition-all duration-500 group"
     style={{
       backgroundClip: 'padding-box',
