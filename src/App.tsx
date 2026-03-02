@@ -95,34 +95,41 @@ function App() {
   };
 
   const projects = [
-    {
-      title: 'Constructive Hives (MERN Stack)',
-      description: 'Developed a web app to solve real-world construction challenges, featuring dynamic material cost estimation and engineer project history browsing, Offered solutions for construction pricing and engineer project viewing features.',
-      tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
-      category: 'Full Stack'
-    },
-    {
-      title: 'Weather Forecasting Web-App',
-      description: 'Developed a responsive web application that fetches real-time weather data using the OpenWeather API. Displays temperature, humidity, wind speed, and weather conditions based on user location or search. Implemented interactive UI with dynamic background changes based on the weather.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeather API'],
-      link: 'https://weatherliveapp4.netlify.app/',
-      category: 'Frontend'
-    },
-    {
-      title: 'Apartment Management System',
-      description: 'Built a full-stack web dashboard for admins to manage tenant and owner records efficiently.Integrated a complaint tracking module for logging and resolving apartment-related issues.Enabled real-time updates and database connectivity using MySQL for smooth management',
-      tech: [  'JavaScript','PHP', 'MySQL'],
-      category: 'Full Stack'
-    },
-    {
-      title: 'Makeover Website',
-      description: 'Created a responsive React + TypeScript site for Reborn Beauty Lounge in Mysuru. Features include Homes, Gallery,Service , Training, About and Contact. Utilized modern web technologies for a sleek user experience.',
-      tech: ['React.js', 'TypeScript', 'Responsive Design'],
-      link: 'https://sumas-makeover.netlify.app/',
-      category: 'Frontend'
-    }
-  ];
-
+  {
+    title: 'Neural Threats – Deepfake Detection System',
+    description: 'Developed a CNN and RNN-based deepfake detection system to identify manipulated images, videos, and audio content. Implemented deep learning models to analyze facial inconsistencies and temporal patterns. Designed preprocessing pipelines, model training workflows, and evaluation metrics to improve detection accuracy. Focused on AI-driven cybersecurity and synthetic media threat detection.',
+    tech: ['Python', 'TensorFlow', 'CNN', 'RNN', 'OpenCV', 'NumPy', 'Machine Learning'],
+    link: 'https://github.com/Roshan474/DeepFake_Detection', // replace with your actual GitHub link
+    category: 'Machine Learning'
+  },
+  {
+    title: 'Makeover Website',
+    description: 'Created a responsive React + TypeScript site for Reborn Beauty Lounge in Mysuru. Features include Home, Gallery, Service, Training, About, and Contact sections. Utilized modern web technologies for a sleek user experience.',
+    tech: ['React.js', 'TypeScript', 'Responsive Design'],
+    link: 'https://sumas-makeover.netlify.app/',
+    category: 'Frontend'
+  },
+  {
+    title: 'Constructive Hives (MERN Stack)',
+    description: 'Developed a web app to solve real-world construction challenges, featuring dynamic material cost estimation and engineer project history browsing. Offered solutions for construction pricing and engineer project viewing features.',
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
+    category: 'Full Stack'
+  },
+  {
+    title: 'Weather Forecasting Web-App',
+    description: 'Developed a responsive web application that fetches real-time weather data using the OpenWeather API. Displays temperature, humidity, wind speed, and weather conditions based on user location or search. Implemented interactive UI with dynamic background changes based on the weather.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeather API'],
+    link: 'https://weatherliveapp4.netlify.app/',
+    category: 'Frontend'
+  },
+  {
+    title: 'Apartment Management System',
+    description: 'Built a full-stack web dashboard for admins to manage tenant and owner records efficiently. Integrated a complaint tracking module for logging and resolving apartment-related issues. Enabled real-time updates and database connectivity using MySQL for smooth management.',
+    tech: ['JavaScript', 'PHP', 'MySQL'],
+    category: 'Full Stack'
+  }
+  
+];
  const achievements = [
   
   {
