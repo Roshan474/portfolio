@@ -403,10 +403,13 @@ function App() {
   <div className="flex flex-col items-center space-y-6">
     {/* Highlighted Java and C */}
     <div className="flex space-x-6">
-      <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-xl font-bold shadow-lg animate-pulse transition-transform duration-300 transform hover:scale-110">
+      <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 text-white px-6 py-3 rounded-full text-xl font-bold shadow-lg animate-pulse transition-transform duration-300 transform hover:scale-110">
+        Python
+      </span>
+      <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 text-white px-6 py-3 rounded-full text-xl font-bold shadow-lg animate-pulse transition-transform duration-300 transform hover:scale-110">
         Java
       </span>
-      <span className="bg-gradient-to-r from-teal-400 via-cyan-500 to-blue-500 text-white px-6 py-3 rounded-full text-xl font-bold shadow-lg animate-pulse transition-transform duration-300 transform hover:scale-110">
+      <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 text-white px-6 py-3 rounded-full text-xl font-bold shadow-lg animate-pulse transition-transform duration-300 transform hover:scale-110">
         C
       </span>
     </div>
@@ -511,12 +514,12 @@ function App() {
     {/* 🔥 Enhanced Progress Bars Section */}
 <div className="mt-20 grid md:grid-cols-2 gap-10">
   {[
-    { name: "JavaScript", percent: 90 },
-    { name: "React", percent: 80 },
-    { name: "Java", percent: 95 },
-    { name: "Figma (UI/UX)", percent: 95 },
+    { name: "Python", percent: 90 },
+    { name: "Machine learning", percent: 80 },
+    { name: "Deep learning", percent: 95 },
+    { name: "React", percent: 95 },
+    { name: "Artificial Intelligence", percent: 90 },
     { name: "Git/GitHub", percent: 90 },
-    { name: "Robotic Process Automation", percent: 90 },
   ].map((skill, idx) => (
     <div
       key={idx}
