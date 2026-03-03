@@ -259,8 +259,8 @@ function App() {
 
         {/* Bio */}
         <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-slideInRight">
-          Computer Science student with hands-on experience in Front-end development and open-source contribution, 
-          seeking opportunities to apply technical and problem-solving skills in a dynamic software development role.
+          AI-focused Computer Science undergraduate with experience in deep learning, cybersecurity, and cloud
+          deployments, seeking to build scalable intelligent systems in ML and software engineering roles.
         </p>
       </div>
 
