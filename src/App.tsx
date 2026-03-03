@@ -99,7 +99,7 @@ function App() {
     title: 'Neural Threats – Deepfake Detection System',
     description: 'Developed a CNN and RNN-based deepfake detection system to identify manipulated images, videos, and audio content. Implemented deep learning models to analyze facial inconsistencies and temporal patterns. Designed preprocessing pipelines, model training workflows, and evaluation metrics to improve detection accuracy. Focused on AI-driven cybersecurity and synthetic media threat detection.',
     tech: ['Python', 'TensorFlow', 'CNN', 'RNN', 'OpenCV', 'NumPy', 'Machine Learning'],
-    link: 'https://github.com/Roshan474/DeepFake_Detection', // replace with your actual GitHub link
+    link: 'https://github.com/Roshan474/DeepFake_Detection', 
     category: 'Machine Learning'
   },
   {
@@ -131,22 +131,27 @@ function App() {
   
 ];
  const achievements = [
-  
   {
-    text: '🚀 Attended SYMBIOT-2024 Hackathon at Vidyavardhaka College of Engineering, Mysuru.💡 Gained hands-on experience, learned new technologies, and improved team collaboration.',
-    images: ['/hack1.png', '/hack2.png'], // Replace with actual image paths
+    text: '🚀 Attended SYMBIOT-2024 Hackathon at Vidyavardhaka College of Engineering, Mysuru. 💡 Gained hands-on experience, learned new technologies, and improved team collaboration.',
+    images: ['/hack1.png', '/hack2.png'],
   },
   {
     text: '🌐 Contributed to the Wikimedia Foundation, gaining valuable tech skills and connecting with amazing people.',
-    images: ['/wiki.png'], // Replace with actual image paths
+    images: ['/wiki.png'],
   },
   {
     text: 'IEEE Conference – Published paper: "Structured Intelligence: Merging Neural and Symbolic AI"',
-    images: ['/ieee.png'], // Replace with actual image paths
+    images: ['/ieee.png'],
+    link: 'https://ieeexplore.ieee.org/abstract/document/11118474',
   },
   {
-    text: '🏆 Winners of Technova 2023, organized by the Algoriz Club, CSE Dept., AIET, Moodbidri.Designed a standout UI/UX prototype using Figma, showcasing teamwork and creativity.',
-    images: ['/tech.png', '/tech2.png'], // Replace with actual image paths
+    text: 'IEEE Conference – Published paper: "Neural Threats: Cybersecurity Implications of CNN- and RNN-Based Deepfake Detection"',
+    images: ['/ieee2.png'],
+    link: 'https://ieeexplore.ieee.org/document/11368557',
+  },
+  {
+    text: '🏆 Winners of Technova 2023, organized by the Algoriz Club, CSE Dept., AIET, Moodbidri. Designed a standout UI/UX prototype using Figma, showcasing teamwork and creativity.',
+    images: ['/tech.png', '/tech2.png'],
   },
 ];
 
@@ -704,20 +709,22 @@ function App() {
             <div className="bg-blue-600 p-2 rounded-full flex-shrink-0">
               <Award className="w-5 h-5 text-white" />
             </div>
-            <div className="text-gray-300 leading-relaxed">
-              {achievement.link ? (
-                <a
-                  href={achievement.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:underline"
-                >
-                  {achievement.text}
-                </a>
-              ) : (
-                <p>{achievement.text}</p>
-              )}
-            </div>
+            <div className="flex items-start justify-between w-full">
+  <p className="text-gray-300 leading-relaxed pr-3">
+    {achievement.text}
+  </p>
+
+  {achievement.link && (
+    <a
+      href={achievement.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-300 transition-transform duration-300 hover:scale-110"
+    >
+      <ExternalLink className="w-5 h-5" />
+    </a>
+  )}
+</div>
           </div>
 
           {/* Swiper Image Slider */}
