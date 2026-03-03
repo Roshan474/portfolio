@@ -688,13 +688,14 @@ function App() {
           images: ['tcs.jpg'],
         },
         {
+          text: 'NPTEL: Certified in Theory of Computation (TOC) ',
+          images: ['toc.png'],
+        },
+        {
           text: 'Infosys Springboard: Earned certifications in React, DBMS, Computer Networks, and Operating Systems',
         },
         {
           text: 'CodeChef: Completed the Data Structures and Algorithms course with certification',
-        },
-        {
-          text: 'NPTEL: Certified in Theory of Computation (TOC) ',
         },
         {
           text: 'Cyber Security Club: Certified of Completion in CySeck (Cyber Security Karnataka)',
